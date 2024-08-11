@@ -44,9 +44,9 @@ var type = function(text, promise) {
   return promise;
 };
 
-type("Testing....")
-  .wait(500)
-  .then("This is just a test...")
-  .then("This is *only* a test...")
-  .wait(1500)
-  .then("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae tellus aliquet, eleifend mi id, malesuada massa. Nam sit amet nunc ut nulla elementum tempor eu ut ipsum. Suspendisse eget augue sollicitudin, adipiscing dui sed, blandit nulla. Donec tempor vehicula nisi at molestie. Vestibulum interdum sem arcu, vitae sodales libero gravida et. Suspendisse pretium consectetur augue at lacinia. Ut urna lectus, tincidunt ut elit vitae, egestas egestas ipsum. Maecenas gravida tortor eget metus pulvinar sodales. Cras vitae nisi nec felis varius auctor. Donec semper aliquam mollis.");
+type("Hola....")
+  .wait(400)
+  .then("Como estas...")
+  .then("Soy Albert...")
+  .wait(1000)
+  .then("Esta es simplemente una pagina que muestra texto en una consola haciendo referencia a Fallout 3, un juego que me encanta mucho sinceramente, espero que a ti te guste mi pagina tambien.");
